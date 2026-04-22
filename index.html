@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Chat Application</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- 🔷 Header with icons -->
+        <div class="chat-header">
+            <div class="left">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-comments chat-icon"></i>
+                <div class="title">
+                    <h2>Chat App</h2>
+                    <span class="status">● Online</span>
+                </div>
+            </div>
+
+            <div class="right">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="chat-messages" class="chat-messages"></div>
+
+        <!-- Input -->
+        <div class="input-container">
+            <i class="fa-solid fa-paperclip"></i>
+            <input type="text" id="message-input" placeholder="Type a message..." />
+            <i class="fa-regular fa-face-smile"></i>
+            <button id="send-button">
+                <i class="fa-solid fa-paper-plane"></i> Send
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
