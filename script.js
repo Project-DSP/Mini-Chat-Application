@@ -33,7 +33,7 @@ function appendMessage(text, sender) {
     avatar.classList.add('avatar');
 
     avatar.src = sender === 'user'
-        ? "https://cdn-icons-png.flaticon.com/512/847/847969.png"
+        ? "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
         : "https://cdn-icons-png.flaticon.com/512/4712/4712109.png";
 
     const textDiv = document.createElement('div');
